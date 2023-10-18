@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+    <style>
+        table, th , td {
+            border: 1px solid black
+        }
+        th, td {
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Đây là bản danh sách học viên</caption>
+        <thead>
+            <tr>
+                <th>Tên</th>
+                <th>Tuổi</th>
+                <th>A</th>
+                <th>Điểm</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Lê Văn A 1
+                </td>
+                <td>
+                    10
+                </td>
+                <td>
+                    a
+                </td>
+                <td>
+                    8
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Lê Văn A 2
+                </td>
+                <td>
+                    15
+                </td>
+                <td>
+                    a
+                </td>
+                <td>
+                    7
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Lê Văn A 3
+                </td>
+                <td>
+                    13
+                </td>
+                <td>
+                    a
+                </td>
+                <td>
+                    6
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"> Trung Bình </td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="2">Tax</td>
+                <td>7%</td>
+                <td>42.76</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>653.64</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Sở thích</td>
+                <td>Trái cây</td>
+                <td>Xoài</td>
+                <td>Mận</td>
+            </tr>
+            <tr>
+                <td>Màu</td>
+                <td>Xanh</td>
+                <td>Đỏ</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th  rowspan="2" >Stt</th>
+                <th  rowspan="2">Hình ảnh</th>
+                <th  rowspan="2">Video</th>
+                <th  rowspan="2">Audio</th>
+                <th  rowspan="2">Họ tên</th>
+                <th  rowspan="2">Lớp</th>
+                <th  rowspan="2">Tuổi</th>
+                <th colspan="2" >Khác</th>
+            </tr>
+            <tr>
+                <td>Mục 1</td>
+                <td>Mục 2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3"><img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt=""></td>
+                <td rowspan="3"><video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video></td>
+                <td rowspan="3"><audio src="https://www.w3schools.com/html/horse.ogg" controls></audio></td>
+                <td rowspan="3">Trần Thị B</td>
+                <td rowspan="3">10B</td>
+                <td rowspan="3">14</td>
+                <td>Mục 1</td>
+                <td>Mục 2</td>
+            </tr>
+            <tr>
+                <td>Thông tin bổ sung 1</td>
+                <td>Thông tin bổ sung 2</td>
+            </tr>
+            <tr>    
+
+                <td>Thông tin bổ sung 3</td>
+                <td>Thông tin bổ sung 4</td>
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3"><img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt=""></td>
+                <td rowspan="3"><video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video></td>
+                <td rowspan="3"><audio src="https://www.w3schools.com/html/horse.ogg" controls></audio></td>
+                <td rowspan="3">Trần Thị B</td>
+                <td rowspan="3">10B</td>
+                <td rowspan="3">14</td>
+                <td>Mục 1</td>
+                <td>Mục 2</td>
+            </tr>
+            <tr>
+                <td>Thông tin bổ sung 1</td>
+                <td>Thông tin bổ sung 2</td>
+            </tr>
+            <tr>    
+
+                <td>Thông tin bổ sung 3</td>
+                <td>Thông tin bổ sung 4</td>
+            </tr>                        
+        </tbody>
+    </table>
+    <h1>select </h1>
+    <form action="">
+        <select name="" id="">
+            <option value="xoai">Xoài</option>
+            <option value="xoai">Xoài 1</option>
+            <option value="xoai">Xoài 2</option>
+            <option value="xoai">Xoài 3</option>
+            <option value="xoai">Xoài 4</option>
+            <option value="xoai">Xoài 5</option>
+        </select>
+        <h1>select multiple</h1>
+        <br>
+        <select multiple name="" id="">
+            <option value="xoai">Xoài</option>
+            <option value="xoai">Xoài 1</option>
+            <option value="xoai">Xoài 2</option>
+            <option value="xoai">Xoài 3</option>
+            <option value="xoai">Xoài 4</option>
+            <option value="xoai">Xoài 5</option>
+        </select>
+        <h1>Bài tập form</h1>
+    </form>
+    <form action="">
+        <label for="">Title</label>
+        <input type="radio" name="title">
+        <label for="">Mr</label>
+        <input type="radio" name="title">
+        <label for="">Mrs</label>
+        <input type="radio" name="title">
+        <br>
+        <label for="">First name</label>
+        <input type="text">
+        <br> <br>
+        <label for="">Last name</label> 
+        <input type="text"> <br> <br>
+        <label for="">Email</label>
+        <input type="email" name="" id=""> <br> <br>
+        <label for="">Phone number</label>
+        <input type="tel" name="" id=""> <br> <br>
+        <label for="">Password</label>
+        <input type="password" name="" id=""> <br> <br>
+        <label for="">Confirm</label>
+        <input type="password" name="" id=""> <br> <br>
+        <label for="">Country</label> 
+        <select name="" id="">
+            <option value="">Việt Nam</option>
+            <option value="">Canada</option>
+        </select> <br> <br>
+        <input type="checkbox"> 
+        <label for="">Đồng ý</label> <br> <br>
+        <button>submit</button>
+    </form>
+    <form action="">
+        
+    </form>
+</body>
+</html>
