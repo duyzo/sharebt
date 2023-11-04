@@ -1,0 +1,30 @@
+.p_5_percent {
+    padding: 5%;
+
+}
+.circle_30 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.pt_10_percent {
+    padding-top: 10%;
+}
+
+.pb_5_percent {
+    padding-bottom: 5%;
+}
+
+.plr_10_percent {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.flex_50-50 {
+    flex: 50%;
+}
+
+/* .bb {
+    border: 1px solid #000;
+} */
